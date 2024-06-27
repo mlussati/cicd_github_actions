@@ -69,7 +69,7 @@ jobs:
       # Schedule the execution of the model
       - name: Schedule execution
         run:
-          echo "You can upload your new Airflow DAG to a specific folder "
+          echo "You can upload your new DAG to a specific folder "
 
       # Execute the model once to test if it does run
       - name: Run deploy tests
